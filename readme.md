@@ -22,7 +22,7 @@ React Native enables you to build world-class application experiences on native 
 
 This $1.4 million app is excellent for practise using the Redux structure to manage the React application.
 
-The can be a new To-Do list app to demostration event based library e.g: Flux, Redux, Reflux, etc.
+This can be a new [To-Do mvc app](https://github.com/tastejs/todomvc) in Flux world to demostrate event based library e.g: Flux, Redux, Reflux, etc.
 
 ## Installation 
 
