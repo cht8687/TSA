@@ -1,0 +1,21 @@
+{
+  "name": "TSA",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start"
+  },
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "d3": "^3.5.16",
+    "immutable": "^3.7.6",
+    "moment-timezone": "^0.5.3",
+    "react": "^0.14.8",
+    "react-native": "^0.22.2",
+    "react-native-icons": "^0.7.1",
+    "react-native-swiper": "^1.4.3",
+    "react-redux": "^3.1.0",
+    "redux": "^3.3.1",
+    "redux-thunk": "^2.0.1"
+  }
+}
