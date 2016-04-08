@@ -4,11 +4,12 @@ import createReducer from '../utils/createReducer';
 import {
   GET_DIRECTION,
   HIDE_TAP_TEXT,
-  SHOW_TAP_TEXT
+  SHOW_TAP_TEXT,
+  HIDE_DIRECTION
 } from '../constant/ActionType';
 import {
-  LEFT,
-  RIGHT
+  UP,
+  DOWN
 } from '../constant/home';
 import { Record } from 'immutable';
 
@@ -24,10 +25,16 @@ const actionHandler = {
 
   [GET_DIRECTION](state) {
 
-    let nextNumber = random.nextInt(2);
-    nextDirection = nextNumber == 0 ? LEFT : RIGHT;
+    let nextNumber = Math.floor((Math.random() * 2) + 0);
+    console.log(nextNumber);
+    const nextDirection = nextNumber == 0 ? UP : DOWN;
 
-    return state.set('currentDirection', data);
+    return state.set('currentDirection', nextDirection);
+  },
+
+  [HIDE_DIRECTION](state) {
+
+    return state.set('currentDirection', '');
   },
 
   [HIDE_TAP_TEXT](state) {

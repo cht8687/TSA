@@ -3,7 +3,8 @@
 import { 
   GET_DIRECTION,
   HIDE_TAP_TEXT,
-  SHOW_TAP_TEXT
+  SHOW_TAP_TEXT,
+  HIDE_DIRECTION
 } from '../constant/ActionType';
 
 export function getDirection () {
@@ -21,5 +22,11 @@ export function hideTapText () {
 export function showTapText () {
   return {
     type: SHOW_TAP_TEXT
+  }
+}
+
+export function hideDirection () {
+  return {
+    type: HIDE_DIRECTION
   }
 }
