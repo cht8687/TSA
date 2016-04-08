@@ -26,6 +26,12 @@ This $1.4 million app is an excellent topic for practising using the Redux struc
 
 This can be a new [To-Do mvc app](https://github.com/tastejs/todomvc) in Flux world to demostrate event based library e.g: Flux, Redux, Reflux, etc.
 
+
+## Why do up and down?
+
+The ultimate $1.4 million TSA app definitely has the copy right thing, we can't do left and right directions.
+
+
 ## Installation 
 
 ```
