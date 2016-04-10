@@ -8,7 +8,7 @@ Inspired by:
 
 [Guy makes 1.4 million dollar TSA app in 10 minutes](https://www.reddit.com/r/videos/comments/4deagz/)
 
--- watch this Youtube video:
+-- Watch this Youtube video:
 
 [<img src="./youtube.png">](https://youtu.be/P_KmFJ2gGzw)
 
@@ -29,7 +29,7 @@ This can be a new [To-Do mvc app](https://github.com/tastejs/todomvc) in Flux wo
 
 ## Why do up and down?
 
-The ultimate $1.4 million TSA app definitely has the copy right thing, we can't do left and right directions.
+The ultimate $1.4 million TSA app definitely has the copy right, we can't do left and right directions.
 
 
 ## Installation 
@@ -38,7 +38,7 @@ The ultimate $1.4 million TSA app definitely has the copy right thing, we can't 
 $ npm install 
 ```
 
-Open in the iOS/Android project to compile and run.
+Open the iOS/Android project to compile and run.
 
 
 ## Output
