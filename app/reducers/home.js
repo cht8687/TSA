@@ -26,7 +26,6 @@ const actionHandler = {
   [GET_DIRECTION](state) {
 
     let nextNumber = Math.floor((Math.random() * 2) + 0);
-    console.log(nextNumber);
     const nextDirection = nextNumber == 0 ? UP : DOWN;
 
     return state.set('currentDirection', nextDirection);
