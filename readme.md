@@ -34,7 +34,7 @@ Yes! you can. This project can be used as a boilerplate for RN applications.
 
 ## Why do up and down?
 
-The ultimate $1.4 million TSA app definitely has the copy right, we can't do left and right directions.
+The ultimate $1.4 million TSA app definitely has the copyright, we can't do left and right directions.
 
 
 ## Installation 
