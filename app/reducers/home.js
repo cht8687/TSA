@@ -27,7 +27,7 @@ const actionHandler = {
 
     let nextNumber = Math.floor((Math.random() * 2) + 0);
     const nextDirection = nextNumber == 0 ? UP : DOWN;
-
+    
     return state.set('currentDirection', nextDirection);
   },
 
@@ -37,13 +37,14 @@ const actionHandler = {
   },
 
   [HIDE_TAP_TEXT](state) {
+
     return state.set('tapTextShow', false);
   },
 
   [SHOW_TAP_TEXT](state) {
+
     return state.set('tapTextShow', true);
   }
-
 
 }
 
