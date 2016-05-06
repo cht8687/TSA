@@ -64,5 +64,10 @@ buildToolsVersion "23.0.3"
 
 ## Output
 
+iOS
+
 ![TSA](./tsa.gif)
 
+Android
+
+![Android](./android.gif)
