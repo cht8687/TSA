@@ -43,9 +43,26 @@ The ultimate $1.4 million TSA app definitely has the copyright, we can't do left
 $ npm install 
 ```
 
-Open the iOS/Android project to compile and run.
+## iOS
 
+Open ios\TSA.xcodeproj in XCode to run.
+
+## Android
+
+
+```
+react-native start > /dev/null 2>&1 &
+adb reverse tcp:8081 tcp:8081
+react-native run-android
+
+```
+** You need change  android/app/build.gradle of following to your installed tool version number
+
+```
+buildToolsVersion "23.0.3"
+```
 
 ## Output
 
 ![TSA](./tsa.gif)
+

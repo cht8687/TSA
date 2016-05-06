@@ -40,10 +40,12 @@ export default class Home extends Component {
 
     return (
       <View>
+        {currentDirection !='' ?
         <Image
           style={styles.icon}
           source={{uri: curIcon, scale: 3}}
         />
+        : null}
       </View>
     );
   }
